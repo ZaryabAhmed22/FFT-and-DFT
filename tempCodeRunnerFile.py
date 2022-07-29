@@ -1,0 +1,1 @@
+ print(f'i:{i}; j:{j}; m1={folded_arr_zeros[i][j]}; m2={s2[j]} ; result = {result}')

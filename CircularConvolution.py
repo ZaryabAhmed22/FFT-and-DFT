@@ -50,7 +50,7 @@ def circular_conv(s1, s2):
     conv_result = []
 
     for i in range(max):
-      arr2 = mat1[3:len(s1)-1-i:-1] + mat1[0:len(s1)-i]
+      arr2 = mat1[len(s1)-1:len(s1)-1-i:-1] + mat1[0:len(s1)-i]
       if i == 0:
         folded_arr_zeros[i] = mat1
       else:
